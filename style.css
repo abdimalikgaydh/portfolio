@@ -85,9 +85,24 @@ margin:auto;
 padding:0 20px;
 }
 
-.logo{
-font-size:26px;
-font-weight:700;
+.logo {
+    display: flex;
+    gap: 5px;
+    justify-content: center;
+    align-items: center;
+}
+
+.img-logo img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.title {
+    color:white;
+    font-size: 20px;
+    font-weight: bold;
 }
 
 .nav-links{
